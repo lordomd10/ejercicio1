@@ -1,0 +1,11 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+
+[devenv]
+# Esto fuerza la instalación de paquetes del sistema antes de pip
+installDepsFrom = ["requirements.txt"]
+
+[packages]
+# Aquí van los paquetes del sistema que necesita fpdf2
+aptPackages = ["libraqm-dev", "libfreetype6-dev", "pkg-config"]
