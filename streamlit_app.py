@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import random
-from fpdf import FPDF
+from fpdf2 import FPDF
 import io
 import base64
 
